@@ -10,14 +10,14 @@ tags: [notes on Introduction to information retrieval]
 # 1.1 An example information retrieval problem
 * *grep* : linear scan through documents
 * *incidence matrix term* :
-![figure 1](../snapshot/1.png)
+![refer to figure 1](../snapshot/1.png)
 to query Brutus AND Caesar AND NOT Calpurnia:  110100 AND 110111 AND 101111 = 100100
 * *ad hoc retrieval* : provide documents from within the collection that are relevant to an arbitrary user information need, communicated to the system by means of a one-off, user-initiated query   
 &emsp;	* information need : what the user desires to know  
 &emsp;	* query : what the user conveys to the computer for information need
 * effectiveness evaluation methods: precision, recall. 
 * *inverted index/inverted files* : 
-![figure 3](../snapshot/2.png)
+![refer to figure 3](../snapshot/2.png)
 when the corpus is large, incidence matrix term is extremely sparse  
 *posting* : each item in the list, which records that a term appeared in a document   
 *postings list* : the list   
