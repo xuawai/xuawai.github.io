@@ -11,9 +11,9 @@ highlighter: pygments
 title : Jekyll Bootstrap
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : xuawai
+  email : xujincheng@tongji.edu.cn
+  github : https://github.com/xuawai
   twitter : username
   feedburner : feedname
 
