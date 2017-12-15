@@ -61,7 +61,7 @@ tags: [notes on Introduction to information retrieval]
 * Consider every pair of consecutive terms in a document as a phrase.  
 * Sometimes the noun phrases have a special status, e.g., `the abolition of slavery`, which needs performing part-of-speech-tagging to be `slavery abolition`.  
 * Transform the noun phrases into biword doesn't always work.e.g., `cost overruns on a power plant` to `“cost overruns” AND “overruns power” AND “power plant”`.  
-*part-of-speech-tagging* : Part of speech taggers classify words as nouns, verbs, etc. See, for instance, `Manning and Schütze (1999, ch. 10)`.  
+*part-of-speech-tagging* : Part of speech taggers classify words as nouns, verbs, etc.   
 
 ### 2.4.2 Positional indexes
 ![refer to figure 2.11](../snapshot/4.png)
