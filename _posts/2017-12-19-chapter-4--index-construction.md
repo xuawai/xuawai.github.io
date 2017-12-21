@@ -39,6 +39,6 @@ tags: []
 * Because of this complexity of dynamic indexing, some large search engines adopt a reconstruction-from-scratch strategy.  
 
 ### 4.6 Other types of indexes
-* In a docID-sorted index, new documents are always inserted at the end of postings lists. In an impact-sorted index, the insertion can occur anywhere, thus complicating the update of the inverted index.  
+* In a docID-sorted index, new documents are always inserted at the end of postings lists. In an impact-sorted index, the ins66ertion can occur anywhere, thus complicating the update of the inverted index.  
 * Securityis an important consideration for retrieval systems in corporations.
 * *access control lists or ACLs:* ACLs can be dealt with in an IR system by representing each document as the set of users that can access them 
