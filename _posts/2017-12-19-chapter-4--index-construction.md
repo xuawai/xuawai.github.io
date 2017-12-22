@@ -2,8 +2,8 @@
 layout: post
 title: "Chapter 4 : Index Construction"
 description: ""
-category: 
-tags: []
+category: NLP
+tags: [notes on Introduction to information retrieval]
 ---
 {% include JB/setup %}
 # Index Construction

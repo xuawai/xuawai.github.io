@@ -2,8 +2,8 @@
 layout: post
 title: "Chapter 5 : Index compression"
 description: ""
-category: 
-tags: []
+category: NLP
+tags: [notes on Introduction to information retrieval]
 ---
 {% include JB/setup %}
 
