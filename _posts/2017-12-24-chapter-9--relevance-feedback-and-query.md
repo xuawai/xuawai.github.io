@@ -72,7 +72,7 @@ Reasonable values might be α = 1, β = 0.75, and γ = 0.15.
 * Two main approaches:  
 &emsp; 1.exploit word cooccurrence.  
 &emsp; 2.use a shallow grammatical analysis of the text and to exploit grammatical relations or grammatical dependencies.  
-* In general a domain- specific thesaurus is required.  
+* In general a domain-specific thesaurus is required.  
 * Overall, query expansion is less successful than relevance feedback, though it may be as good as pseudo relevance feedback.  
 
 

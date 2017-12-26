@@ -51,5 +51,4 @@ tags: [notes on Introduction to information retrieval]
 # 8.7 Results snippets
 * **snippet:** The snippet consists of the document title and a short summary, which is automatically extracted.  
 * **static summary:** The results are always the same regardless of the query.  
-* **dynamic summary:** Dynamic summaries attempt to explain why a particular document was retrieved for the query at hand.  
-* 
+* **dynamic summary:** Dynamic summaries attempt to explain why a particular document was retrieved for the query at hand.   
