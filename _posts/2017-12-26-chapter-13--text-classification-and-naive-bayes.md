@@ -7,7 +7,7 @@ tags: [notes on Introduction to information retrieval]
 ---
 {% include JB/setup %}
 
-* **standing queries:** A standing query is like any other query except that it is periodically executed on a collection to which new documents are incre- mentally added over time.  
+* **standing queries:** A standing query is like any other query except that it is periodically executed on a collection to which new documents are incrementally added over time.  
 * The classification task is called text classification, text categorization, topic classification, or topic spotting.  
 * **Topic-specific or vertical search:** Vertical search engines restrict searches to a particular topic. **e.g.,** the query `computer science` on a vertical search engine for the topic `China` will return a list of Chinese computer science departments with higher precision and recall than the query `computer science China` on a general purpose search engine.   
 * Apart from manual classification and hand-crafted rules, there is a third approach to text classification, namely, machine learning-based text classification.  
@@ -84,4 +84,3 @@ tags: [notes on Introduction to information retrieval]
 &emsp; * large classes dominate small classes in microaveraging.   
 * Although most researchers believe that an SVM is better than kNN and kNN better than NB, the ranking of classifiers ultimately depends on the class, the document collection, and the experimental setup.  
 * Set aside a `development set` for testing while you develop your method. When such a set serves the primary purpose of finding a good value for a parameter, for example, the number of selected features, then it is also called `held-out data`.   
-* 
