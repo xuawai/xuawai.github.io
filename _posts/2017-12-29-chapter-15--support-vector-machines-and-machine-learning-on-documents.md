@@ -38,3 +38,7 @@ tags: [notes on Introduction to information retrieval]
 # 15.4 Machine learning methods in ad hoc information retrieval
 ### 15.4.1 A simple example of machine-learned scoring
 ![refer to table 15.3](../snapshot/45.png) 
+
+### 15.4.2 Result ranking by machine learning
+* **ordinal regression:** Between `classification` and `regression` is the specialized field of `ordinal regression` where a ranking is predicted.  
+* **ranking SVM**`skipped for now`

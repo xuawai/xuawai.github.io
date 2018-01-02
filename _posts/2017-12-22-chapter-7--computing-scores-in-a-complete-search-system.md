@@ -43,7 +43,7 @@ tags: [notes on Introduction to information retrieval]
 * If we set a tf threshold of 20 for tier 1, it means that the tier 1 index only has postings entries with tf values exceeding 20.  
 
 ### 7.2.2 Query-term proximity
-* **e.g.:**If the document were to simply consist of the sentence The quality of mercy is not strained, the smallest window for the query strained mercy would be 4.  
+* **e.g.:**If the document were to simply consist of the sentence `The quality of mercy is not strained`, the smallest window for the query `strained mercy` would be 4.  
 * The smaller the smallest window is, the better the document matches the query.  
 
 ### 7.2.3 Designing parsing and scoring functions
