@@ -32,7 +32,7 @@ tags: [notes on Introduction to information retrieval]
 * * **kappa statistic:** It's for categorical judgments and corrects a simple agreement rate for the rate of chance agreement.  
 ![refer to formula 8.10](../snapshot/22.png)
 ![refer to table 8.2](../snapshot/23.png)
-* As a rule of thumb, a kappa value above 0.8 is taken as good agree- ment, a kappa value between 0.67 and 0.8 is taken as fair agreement, and agreement below 0.67 is seen as data providing a dubious basis for an evalu- ation.  
+* As a rule of thumb, a kappa value above 0.8 is taken as good agreement, a kappa value between 0.67 and 0.8 is taken as fair agreement, and agreement below 0.67 is seen as data providing a dubious basis for an evalu- ation.  
 
 ### 8.5.1 Critiques and justifications of the concept of relevance
 * **marginal relevance:** Whether a document still has distinctive usefulness after the user has looked at certain other documents.  

@@ -28,7 +28,7 @@ Reasonable values might be α = 1, β = 0.75, and γ = 0.15.
 &emsp; 1.Misspellings.  
 &emsp; 2.Cross-language information retrieval.  
 &emsp; 3.Mismatch of searcher’s vocabulary versus collection vocabulary.  
-* The relevance feedback approach requires relevant documents to be similar to each other. 
+* The relevance feedback approach requires relevant documents to be similar to each other.   
 &emsp; 1.Subsets of the documents using different vocabulary, such as Burma vs. Myanmar.  
 &emsp; 2.A query for which the answer set is inherently disjunctive, such as Pop stars who once worked at Burger King.  
 &emsp; 3.Instances of a general concept, which often appear as a disjunction of more specific concepts, for example, felines.  
@@ -40,7 +40,7 @@ Reasonable values might be α = 1, β = 0.75, and γ = 0.15.
 
 ### 9.1.5 Evaluation of relevance feedback strategies
 * precision-recall graph.  
-* **residual collection:** The set of doc- uments minus those assessed relevant.  
+* **residual collection:** The set of documents minus those assessed relevant.  
 * The best evaluation of relevance feedback is to do user studies of its effectiveness, in particular by doing a time-based comparison.  
 
 ### 9.1.6 Pseudo relevance feedback

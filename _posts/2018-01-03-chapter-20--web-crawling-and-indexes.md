@@ -12,7 +12,7 @@ tags: [notes on Introduction to information retrieval]
 * **Politeness**   
 
 ### 20.1.2 Features a crawler should provide
-*distributed, scalable, performance and efficiency, quality, freshness, extensible
+* distributed, scalable, performance and efficiency, quality, freshness, extensible
 
 # 20.2 Crawling
 * **Mercator:** Mercator crawler has formed the basis of a number of research and commercial crawlers.  

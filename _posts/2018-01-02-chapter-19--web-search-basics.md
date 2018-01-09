@@ -22,7 +22,7 @@ tags: [notes on Introduction to information retrieval]
 * **doorway page:** A `doorway page` contains text and metadata carefully chosen to rank highly on selected search keywords.   
 * **Search Engine Optimizers(SEO):** Provide consultancy services for clients who seek to have their web pages rank highly on selected keywords.  
 * **adversarial information retrieval**  
-* **link analysis** vs **link spam:**  
+* **link analysis** vs **link spam**  
 
 # 19.3 Advertising as the economic model
 * **cost per mil (CPM):** The cost to the company of having its banner advertisement displayed 1000 times.  

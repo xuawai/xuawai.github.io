@@ -80,7 +80,7 @@ tags: [notes on Introduction to information retrieval]
 &emsp; * However, many researchers mean effectiveness, not efficiency of text classification when they use the term performance.  
 * `Macroaveraging` computes a simple average over classes. `Microaveraging` pools per-document decisions across classes, and then computes an effectiveness measure on the pooled contingency table. 
 ![refer to table 13.8](../snapshot/39.png) 
-&emsp; * Macroaveraging gives equal weight to each class, whereas microaveraging gives equal weight to each per-document classification decision.   
+&emsp; * `Macroaveraging` gives equal weight to each class, whereas `microaveraging` gives equal weight to each per-document classification decision.   
 &emsp; * large classes dominate small classes in microaveraging.   
 * Although most researchers believe that an SVM is better than kNN and kNN better than NB, the ranking of classifiers ultimately depends on the class, the document collection, and the experimental setup.  
 * Set aside a `development set` for testing while you develop your method. When such a set serves the primary purpose of finding a good value for a parameter, for example, the number of selected features, then it is also called `held-out data`.   

@@ -11,7 +11,7 @@ tags: [notes on Introduction to information retrieval]
 &emsp; * Increased use of caching.
 &emsp; * Faster transfer of data from disk to memory.  
 
-# Statistical properties of terms in information retrieval
+# 5.1 Statistical properties of terms in information retrieval
 * Preprocessing (case folding, stemming, and stop word elimination) affects the size of the dictionary and the number of nonpositional postings greatly.  
 
 ### 5.1.1 Heaps’ law: Estimating the number of terms
@@ -28,7 +28,7 @@ tags: [notes on Introduction to information retrieval]
 
 ### 5.2.2 Blocked storage
 * We can further compress the dictionary by grouping terms in the string into blocks of size k and keeping a term pointer only for the first term of each block.  
-![refer to figure 5.5](../snapshot/9.png)
+![refer to figure 5.5](../snapshot/10.png)
 &emsp; * There is a tradeoff between compression and the speed of term lookup.  
 * *Front coding:* Consecutive entries in an alphabetically sorted list which share common prefixes can be compressed.  
 ![refer to table 5.2](../snapshot/11.png)

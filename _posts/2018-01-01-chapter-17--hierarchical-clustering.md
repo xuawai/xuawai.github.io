@@ -19,6 +19,7 @@ tags: [notes on Introduction to information retrieval]
 * In `single-link clustering` or `single-linkage clustering`, the similarity of two clusters is the similarity of their most similar members.  
 * In `complete-link clustering` or `complete-linkage clustering`, the similarity of two clusters is the similarity of their most dissimilar members.  
 * **chaining:** Since the merge criterion is strictly local, a chain of points can be extended for long distances without regard to the overall shape of the emerging cluster. This effect is called `chaining`.  
+
 ### 17.2.1 Time complexity of HAC
 
 # 17.3 Group-average agglomerative clustering
@@ -36,6 +37,7 @@ tags: [notes on Introduction to information retrieval]
 
 # 17.7 Cluster labeling
 ![refer to table 17.2](../snapshot/50.png) 
+
 * **Differential cluster labeling:** `Differential cluster labeling` selects cluster labels by comparing the distribution of terms in one cluster with that of other clusters.  
 * **Cluster-internal labeling:** `Cluster-internal labeling` computes a label that solely depends on the cluster itself, not on other clusters.   
 * Terms like `year` or `Tuesday` may be among the most frequent in a cluster, but they are not helpful in understanding the contents of a cluster with a specific topic like `oil`.  

@@ -32,7 +32,7 @@ tags: [notes on Introduction to information retrieval]
 * A technique for inexact top-K retrieval in which the postings are not all ordered by a common ordering, thereby precluding a concurrent traversal.  
 * Given postings lists ordered by decreasing order of `tf`:
 &emsp; 1.when traversing the postings list for a query term t, we stop after considering a prefix of the postings list – either after a fixed number of documents r have been seen, or after the value of `tf` has dropped below a threshold;  
-&emsp; 2.Consider the query terms in decreasing order of idf, so that the query terms likely to contribute the most to the final scores are considered first.  
+&emsp; 2.Consider the query terms in decreasing order of `idf`, so that the query terms likely to contribute the most to the final scores are considered first.  
 
 ### 7.1.6 Cluster pruning
 * In cluster pruning, we cluster the document vectors. Then at query time, we consider only documents in a small number of clusters as candidates.  
@@ -40,7 +40,7 @@ tags: [notes on Introduction to information retrieval]
 
 # 7.2 Components of an information retrieval system
 ### 7.2.1 Tiered indexes
-* If we set a tf threshold of 20 for tier 1, it means that the tier 1 index only has postings entries with tf values exceeding 20.  
+* If we set a `tf` threshold of 20 for `tier` 1, it means that the `tier` 1 index only has postings entries with `tf` values exceeding 20.  
 
 ### 7.2.2 Query-term proximity
 * **e.g.:**If the document were to simply consist of the sentence `The quality of mercy is not strained`, the smallest window for the query `strained mercy` would be 4.  

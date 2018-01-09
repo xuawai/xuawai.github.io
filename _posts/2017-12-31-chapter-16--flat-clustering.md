@@ -6,10 +6,11 @@ category: NLP
 tags: [notes on Introduction to information retrieval]
 ---
 {% include JB/setup %}
+
 * **flat clustering:** `Flat clustering` creates a flat set of clusters without any explicit structure that would relate clusters to each other.  
 * **Hierarchical clustering:** `Hierarchical clustering` creates a hierarchy of clusters.  
 * **Hard clustering:** Hard clustering computes a hard assignment – each document is a member of exactly one cluster.  
-* * **Soft clustering:** The assignment of soft clustering algorithms is soft – a document’s assignment is a distribution over all clusters.  
+* **Soft clustering:** The assignment of soft clustering algorithms is soft – a document’s assignment is a distribution over all clusters.  
 
 # 16.1 Clustering in information retrieval
 * **Cluster hypothesis:** Documents in the same cluster behave similarly with respect to relevance to information needs.  
@@ -23,7 +24,7 @@ tags: [notes on Introduction to information retrieval]
 * Some researchers distinguish between `exhaustive clusterings` that assign each document to a cluster and `non-exhaustive clusterings`, in which some documents will be assigned to no cluster.  
 
 ### 16.2.1 Cardinality – the number of clusters
-* A difficult issue in clustering is determining the number of clusters or cardi- nality of a clustering, which we denote by K.   
+* A difficult issue in clustering is determining the number of clusters or cardinality of a clustering, which we denote by K.   
 
 
 # 16.3 Evaluation of clustering

@@ -25,7 +25,7 @@ tags: [notes on Introduction to information retrieval]
 *term* : A term is a (perhaps normalized) type that is included in the IR system’s dictionary  
 **e.g.** `to sleep perchance to dream`includes 5 tokens,4 types, 3 terms.    
 *language identification* : Identify language based on machine learning classifiers.  
-* One solution is to encourage users to input over-eager and search for `over-eager` or `over eager` or `over eager`.  
+* One solution is to encourage users to input over-eager and search for `over-eager` or `over eager`.  
 &emsp;	* hyphenation : Hyphens needs paying attention.  
 &emsp;	* white space : Sometimes white space splits what should be regarded as a single token, e.g.,`New York`.  
   

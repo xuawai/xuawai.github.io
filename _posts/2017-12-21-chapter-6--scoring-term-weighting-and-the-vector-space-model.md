@@ -64,7 +64,7 @@ tags: [notes on Introduction to information retrieval]
 * The mnemonic for representing a combination of weights takes the form ddd.qqq where the first triplet gives the term weighting of the document vector, while the second triplet gives the weighting in the query vector.  
 
 ### 6.4.4 Pivoted normalized document length
-* Longer documents can broadly be lumped into two cat- egories:  
+* Longer documents can broadly be lumped into two categories:  
 &emsp; 1. Verbose documents that essentially repeat the same content.  
 &emsp; 2. Documents covering multiple different topics, in which the search terms probably match small segments of the document but not all of it.   
 * Relevance may have something to do with document length, so we need `Pivoted normalized document length(NOT SURE!)`.  

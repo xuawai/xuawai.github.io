@@ -44,12 +44,12 @@ In a setting where the vocabulary size keeps growing, a hash function designed f
 * *edit distance:* Given two character strings s1 and s2, the edit distance between them is the minimum number of edit operations required to transform s1 into s2, including insert, delete and replace.  
 * Algorithm: Dynamic programming algorithm for computing the edit distance(Levenshtein distance)  
 ![refer to figure 3.6](../snapshot/7.png) 
-* Given a set S of strings (corresponding to terms in the vocab- ulary) and a query string q, we seek the string(s) in V of least edit distance from q.  
+* Given a set S of strings (corresponding to terms in the vocabulary) and a query string q, we seek the string(s) in V of least edit distance from q.  
 **heuristic：** spelling errors do not occur in the first character of the query.  
 
 ### 3.3.4 k-gram indexes for spelling correction
 * **e.g.,** `bord` can be divided into `bo`,`or`,`rd`, and matchs `aboard`, `boardroom` with `2-gram` index. 
-* `boardroom` is a implausible correction of `bord`, so we need *Jaccard coefficient* (or other measures) for measuring the over- lap between two sets.  
+* `boardroom` is a implausible correction of `bord`, so we need *Jaccard coefficient* (or other measures) for measuring the overlap between two sets.  
 *  *Jaccard coefficient*: |A ∩ B|/|A ∪ B|.  
 c**e.g.**, A = bord, B = boardroom, the Jaccard coefficient is 2/(8 + 3 − 2). (`2` means `bo` and `rd`)  
 
